@@ -1,11 +1,9 @@
 import gdown
-home = os.getenv("U2NET_HOME", os.path.join("~", ".u2net"))
-    # home = "models"
-   
-path = Path(home).expanduser() / f"{model_name}.onnx"
 
-path.parents[0].mkdir(parents=True, exist_ok=True)
     
-md5 = "60024c5c889badc19c04ad937298a77b"
-url = "https://drive.google.com/uc?id=1tCU5MM1LhRgGou5OpmpjBQbSrYIUoYab"
-gdown.download(url, str(path), use_cookies=False)
+md5 = "c09ddc2e0104f800e3e1bb4652583d1f"
+url = "https://drive.google.com/uc?id=1ZfqwVxu-1XWC1xU1GHIP-FM_Knd_AX5j"\gdown.download(url,  use_cookies=False)
+
+md5 = "2434d1f3cb744e0e49386c906e5a08bb"
+url = "https://drive.google.com/uc?id=15rKbQSXQzrKCQurUjZFg8HqzZad8bcyz"
+gdown.download(url,  use_cookies=False)
